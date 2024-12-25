@@ -1,0 +1,9 @@
+[build]
+command = "npx @cloudflare/next-on-pages@1"
+directory = ".next"
+
+[site]
+bucket = "./out" # Ensure this matches your build output directory if needed.
+
+[env]
+# Add any environment-specific settings here
