@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "clean": "rimraf .next",
-    "build": "npm run clean && next build",
+    "build": "pnpm clean && next build",
     "start": "next start",
     "lint": "next lint",
     "build:worker": "cloudflare",
