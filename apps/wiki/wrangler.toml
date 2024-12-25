@@ -1,9 +1,4 @@
-[build]
-command = "npx @cloudflare/next-on-pages@1"
-directory = ".next"
-
-[site]
-bucket = "./out" # Ensure this matches your build output directory if needed.
-
-[env]
-# Add any environment-specific settings here
+name = "hoh-website"
+compatibility_date = "2024-12-25"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
