@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
-    "@opennextjs/cloudflare": "^0.3.2"
+    "@opennextjs/cloudflare": "^0.3.2",
+    "vercel": "^39.2.2"
   },
   "engines": {
     "node": ">=18"
